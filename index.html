@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Timer!</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <nav class="controls">
-      <a href="#" class="button" id="start">Start</a>
-      <a href="#" class="button" id="stop">Stop</a>
-      <a href="#" class="button" id="clear">Clear</a>
-    </nav>
-    <div class="stopwatch"></div>
-    <ul class="results"></ul>
-    <script type="text/javascript" src="script-compiled.js"></script>
-  </body>
+<html lang="pl">
+    <head>
+        <title>ES6 - Stoper - zadanie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="controls">
+                <a href="#" id="start" class="button start">Start</a>
+                <a href="#" id="stop" class="button stop">Stop</a>
+                <a href="#" id="clear" class="button clear">Clear</a>
+            </nav>
+            <div class="stopwatch"></div>
+            <div class="controls_mark">
+                <a href="#" id="mark" class="button_mark">Mark</a>
+                <a href="#" id="clearMarkers" class="button_clear">Clear marks</a>
+            </div>
+            <div class="markers">Markers:</div>
+            <ul class="results"></ul>
+        </div>
+        <script src="script-compiled.js"></script>
+    </body>
 </html>
